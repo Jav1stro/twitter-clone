@@ -43,7 +43,7 @@ const NAVIGATION_ITEMS = [
 
 const LeftSidebar = () => {
   return (
-    <section className="fixed w-[275px] flex flex-col items-stretch  h-screen">
+    <section className="fixed w-[275px] flex flex-col items-stretch  h-screen px-6">
       <div className="w-full flex flex-col items-stretch h-full space-y-4 mt-4">
         {NAVIGATION_ITEMS.map((item) => (
           <Link
@@ -68,7 +68,7 @@ const LeftSidebar = () => {
           <div className="rounded-full bg-slate-400 w-10 h-10">f</div>
           <div className="text-left ">
             <div className="font-semibold text-sm">UserName</div>
-            <div className="text-xs">@username</div>
+            <div className="text-xs">@username.mail</div>
           </div>
         </div>
         <div>
