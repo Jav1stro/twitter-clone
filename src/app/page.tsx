@@ -1,13 +1,13 @@
-import LeftSideBar from "../components/LeftSidebar.jsx";
-import MainContent from "../components/MainContent.jsx";
-import RightContent from "../components/RightContent.jsx";
+import LeftSideBar from "../components/LeftSidebar.tsx";
+import MainComponent from "../components/MainComponent.tsx";
+import RightContent from "../components/RightContent.tsx";
 
 const Home = () => {
   return (
-    <div className="w-full h-full flex justify-center items-center relative bg-black">
+    <div className="w-full h-full flex justify-center items-center text-white relative bg-black">
       <div className="max-w-screen-xl w-full h-full flex relative">
         <LeftSideBar />
-        <MainContent />
+        <MainComponent />
         <RightContent />
       </div>
     </div>
